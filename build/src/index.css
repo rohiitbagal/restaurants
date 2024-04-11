@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-link {
+  font-weight: 300 !important;
+  font-family: "Permanent Marker", cursive;
+}
+.navbar-brand {
+  font-family: "Permanent Marker", cursive;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+.overflow-auto {
+  margin: 0 20%; /* Adjust margins as needed */
+  padding: 20px;
+  overflow-y: auto;
+}
+
+header {
+  position: sticky;
+  width: 100%;
+}
+footer {
+  width: 100%;
+  font-family: "Permanent Marker", cursive;
+  position: fixed;
+  height: 100px;
+  bottom: 0;
+}
+.content {
+  margin-top: 1000px; /* Adjust margins as needed */
+  padding: 20px;
+  overflow-y: auto;
+  background-color: black;
+  flex: 3;
+}
+.side-margin {
+  max-width: 900px; /* Set your desired max-width */
+  margin: 0 auto; /* Center the content */
+}
+.footer {
+  color: black;
+  border: black;
+  padding: 10px;
+}
+.foot {
+  font-family: "Permanent Marker", cursive;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.footer a :hover {
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+.left-side,
+.right-side {
+  flex: 1;
+  height: 100%;
+  background-color: black; /* Change this to the desired color */
+}
+.homepage-bgimage {
+  background: url("https://assets-global.website-files.com/61e198dfa4b1d7f9207d9673/6549056c0a97b3bd31cd08d0_Copy%20of%20Blog%20-%20Main%20Image%20(29).jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-heading {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+.sub-heading {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  font-family: "Permanent Marker", cursive;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
